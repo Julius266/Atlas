@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "579613546794",
+    "project_id": "sculptor-be6ce",
+    "storage_bucket": "sculptor-be6ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579613546794:android:556fdf8cd0f35222b4a653",
+        "android_client_info": {
+          "package_name": "com.example.sculptor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579613546794-ib0jbfq8ubtc24bf6kinqmkagv3035gp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sculptor",
+            "certificate_hash": "ecc6cd368e1ebd54e63cfc655d8b653fbd5c6d2c"
+          }
+        },
+        {
+          "client_id": "579613546794-jga9eq16o1o1jc9sjsf51db8u91ftfbd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF3OtejekRj7LddUdYseXTW9FZ2bRLfS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579613546794-jga9eq16o1o1jc9sjsf51db8u91ftfbd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
