@@ -15,7 +15,7 @@ class AuthActivity : AppCompatActivity() {
 
 
     private lateinit var firebaseAuth: FirebaseAuth
-    private lateinit var authStateListener: FirebaseAuth.AuthStateListener
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
