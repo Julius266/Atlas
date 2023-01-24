@@ -35,7 +35,6 @@ class AuthActivity : AppCompatActivity() {
         ton.setOnClickListener()
         {
             singIn(mailText.text.toString(), pssText.text.toString())
-            /*val btn: Button = findViewById(R.id.loginButton)*/
             ton.setOnClickListener {
                 if (mailText.text.isEmpty() || pssText.text.isEmpty()) {
                     Toast.makeText(baseContext, "Llene los campos requeridos", Toast.LENGTH_SHORT).show()
@@ -54,7 +53,7 @@ class AuthActivity : AppCompatActivity() {
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
                     val user = firebaseAuth.currentUser
-                    Toast.makeText(baseContext, user?.uid.toString(), Toast.LENGTH_SHORT).show()
+                    /*Toast.makeText(baseContext, user?.uid.toString(), Toast.LENGTH_SHORT).show()*/
                 }
                 else
                 {

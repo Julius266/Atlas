@@ -37,7 +37,7 @@ class ListaActivity : AppCompatActivity() {
     }
 
     private fun getUserData() {
-        dbref2 = FirebaseDatabase.getInstance().getReference("ejerciciosPierna ")
+        dbref2 = FirebaseDatabase.getInstance().getReference("ejerciciosPierna")
 
         dbref2.addValueEventListener(object  : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {

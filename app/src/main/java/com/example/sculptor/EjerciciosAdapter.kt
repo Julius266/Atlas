@@ -12,6 +12,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.sculptor.Usuario
 import com.example.sculptor.R
+import kotlinx.coroutines.withContext
+import kotlin.coroutines.coroutineContext
 
 class EjerciciosAdapter(private val ejerciciosList: ArrayList<Usuario>): RecyclerView.Adapter<EjerciciosAdapter.EjerciciosViewHolder>() {
 
@@ -29,6 +31,7 @@ class EjerciciosAdapter(private val ejerciciosList: ArrayList<Usuario>): Recycle
         holder.nombre.text = currentitem.nombre
         holder.descripcion.text = currentitem.descripcion
         holder.imagen.text = currentitem.imagen
+
 
 
 

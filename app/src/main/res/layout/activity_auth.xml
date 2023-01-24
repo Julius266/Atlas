@@ -5,19 +5,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AuthActivity">
+    tools:context=".AuthActivity"
+    android:background="@drawable/fondo">
 
     <LinearLayout
         android:id="@+id/authLinerLayout"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_width="380dp"
+        android:layout_height="245dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.602">
 
         <EditText
             android:id="@+id/emailEditText"
@@ -26,7 +27,9 @@
             android:ems="10"
             android:hint="Correo"
             android:inputType="textEmailAddress"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"/>
 
         <Space
             android:layout_width="match_parent"
@@ -39,7 +42,9 @@
             android:ems="10"
             android:hint="Contraseña"
             android:inputType="textPassword"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"/>
 
         <Space
             android:layout_width="match_parent"
@@ -47,7 +52,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="76dp"
             android:orientation="horizontal">
 
             <Button
