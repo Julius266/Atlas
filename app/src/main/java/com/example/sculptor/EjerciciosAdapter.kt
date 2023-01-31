@@ -35,6 +35,7 @@ class EjerciciosAdapter(private val ejerciciosList: ArrayList<Usuario>): Recycle
 
 
 
+
     }
 
     override fun getItemCount(): Int {

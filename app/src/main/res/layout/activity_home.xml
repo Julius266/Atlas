@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeActivity"
-    android:background="@drawable/fondohome">
+    android:background="@drawable/atlasmenu">
 
     <LinearLayout
         android:layout_width="254dp"
@@ -25,7 +25,9 @@
             android:id="@+id/btnEjercicios"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ejercicios de pecho" />
+            android:backgroundTint="#E3D02D"
+            android:text="Ejercicios de pecho"
+            android:textColor="#000000" />
 
         <Space
             android:layout_width="match_parent"
@@ -35,7 +37,9 @@
             android:id="@+id/btnCalculadora"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ejercicios de espalda" />
+            android:backgroundTint="#E3D02D"
+            android:text="Ejercicios de espalda"
+            android:textColor="#000000" />
 
         <Space
             android:layout_width="match_parent"
@@ -45,7 +49,9 @@
             android:id="@+id/btnLista"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ejercicios de pierna" />
+            android:backgroundTint="#E3D02D"
+            android:text="Ejercicios de pierna"
+            android:textColor="#000000" />
 
     </LinearLayout>
 
@@ -53,7 +59,9 @@
         android:id="@+id/btnCerrarSesion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#FEFEFE"
         android:text="Cerrar Sesion"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.883"
